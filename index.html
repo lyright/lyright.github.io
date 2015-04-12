@@ -119,69 +119,6 @@
 <p>MarkdownPad supports multiple Markdown processing engines, including standard Markdown, Markdown Extra (with Table support) and GitHub Flavored Markdown.</p>
 
 <p>With a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there&rsquo;s no limit to what you can do with MarkdownPad.</p>
-
-<pre><code>package com.netease.caipiao.publicserviceimpl;
-
-import java.util.HashMap;
-import java.util.List;
-
-public class UIConfigModel {
-
-  int ver;// 版本号
-
-  List&lt;UIRouterModel&gt; routers;
-
-  public int getVer() {
-return ver;
-  }
-
-  public void setVer(int ver) {
-this.ver = ver;
-  }
-
-  public List&lt;UIRouterModel&gt; getRouters() {
-return routers;
-  }
-
-  public void setRouters(List&lt;UIRouterModel&gt; routers) {
-this.routers = routers;
-  }
-
-  public static class UIRouterModel {
-
-String pluginId;
-String scheme;
-
-HashMap&lt;String, String&gt; hosts;
-
-public String getPluginId() {
-  return pluginId;
-}
-
-public void setPluginId(String pluginId) {
-  this.pluginId = pluginId;
-}
-
-public String getScheme() {
-  return scheme;
-}
-
-public void setScheme(String scheme) {
-  this.scheme = scheme;
-}
-
-public HashMap&lt;String, String&gt; getHosts() {
-  return hosts;
-}
-
-public void setHosts(HashMap&lt;String, String&gt; hosts) {
-  this.hosts = hosts;
-}
-
-  }
-
-}
-</code></pre>
 </div>
   
   
