@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sass | My Octopress Blog]]></title>
+  <link href="http://lyright.github.io/blog/categories/sass/atom.xml" rel="self"/>
+  <link href="http://lyright.github.io/"/>
+  <updated>2015-04-12T23:49:02+08:00</updated>
+  <id>http://lyright.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://lyright.github.io/blog/2015/04/12/first-post/"/>
+    <updated>2015-04-12T15:25:26+08:00</updated>
+    <id>http://lyright.github.io/blog/2015/04/12/first-post</id>
+    <content type="html"><![CDATA[<h2>Welcome to MarkdownPad 2</h2>
+
+<p><strong>MarkdownPad</strong> is a full-featured Markdown editor for Windows.</p>
+
+<h3>Built exclusively for Markdown</h3>
+
+<p>Enjoy first-class Markdown support with easy access to  Markdown syntax and convenient keyboard shortcuts.</p>
+
+<p>Give them a try:</p>
+
+<ul>
+<li><strong>Bold</strong> (<code>Ctrl+B</code>) and <em>Italic</em> (<code>Ctrl+I</code>)</li>
+<li>Quotes (<code>Ctrl+Q</code>)</li>
+<li>Code blocks (<code>Ctrl+K</code>)</li>
+<li>Headings 1, 2, 3 (<code>Ctrl+1</code>, <code>Ctrl+2</code>, <code>Ctrl+3</code>)</li>
+<li>Lists (<code>Ctrl+U</code> and <code>Ctrl+Shift+O</code>)</li>
+</ul>
+
+
+<h3>See your changes instantly with LivePreview</h3>
+
+<p>Don&rsquo;t guess if your <a href="http://markdownpad.com">hyperlink syntax</a> is correct; LivePreview will show you exactly what your document looks like every time you press a key.</p>
+
+<h3>Make it your own</h3>
+
+<p>Fonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.</p>
+
+<h3>A robust editor for advanced Markdown users</h3>
+
+<p>MarkdownPad supports multiple Markdown processing engines, including standard Markdown, Markdown Extra (with Table support) and GitHub Flavored Markdown.</p>
+
+<p>With a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there&rsquo;s no limit to what you can do with MarkdownPad.</p>
+
+<pre><code>package com.netease.caipiao.publicserviceimpl;
+
+import java.util.HashMap;
+import java.util.List;
+
+public class UIConfigModel {
+
+  int ver;// 版本号
+
+  List&lt;UIRouterModel&gt; routers;
+
+  public int getVer() {
+return ver;
+  }
+
+  public void setVer(int ver) {
+this.ver = ver;
+  }
+
+  public List&lt;UIRouterModel&gt; getRouters() {
+return routers;
+  }
+
+  public void setRouters(List&lt;UIRouterModel&gt; routers) {
+this.routers = routers;
+  }
+
+  public static class UIRouterModel {
+
+String pluginId;
+String scheme;
+
+HashMap&lt;String, String&gt; hosts;
+
+public String getPluginId() {
+  return pluginId;
+}
+
+public void setPluginId(String pluginId) {
+  this.pluginId = pluginId;
+}
+
+public String getScheme() {
+  return scheme;
+}
+
+public void setScheme(String scheme) {
+  this.scheme = scheme;
+}
+
+public HashMap&lt;String, String&gt; getHosts() {
+  return hosts;
+}
+
+public void setHosts(HashMap&lt;String, String&gt; hosts) {
+  this.hosts = hosts;
+}
+
+  }
+
+}
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
