@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Sass | My Octopress Blog]]></title>
   <link href="http://lyright.github.io/blog/categories/sass/atom.xml" rel="self"/>
   <link href="http://lyright.github.io/"/>
-  <updated>2015-04-13T00:49:33+08:00</updated>
+  <updated>2015-04-17T00:17:03+08:00</updated>
   <id>http://lyright.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -50,6 +50,8 @@
 <p>MarkdownPad supports multiple Markdown processing engines, including standard Markdown, Markdown Extra (with Table support) and GitHub Flavored Markdown.</p>
 
 <p>With a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there&rsquo;s no limit to what you can do with MarkdownPad.</p>
+
+<p><img src="../images/code_bg.png" alt="image" /></p>
 ]]></content>
   </entry>
   
